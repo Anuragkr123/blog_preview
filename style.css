@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+html{
+    font-family: "Figtree", sans-serif;
+}
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    margin: 200px auto 0;
+    border-radius: 15px;
+    padding: 25px 25px 10px 25px;
+    /* line-height: 1.5rem; */
+    outline: 1px solid black;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.box .mainImg{
+    width: 100%;
+    border-radius: 13px;
+    margin-bottom: 1.5rem;
+}
+.box strong{
+    background-color: var(--yellow);
+    padding: 5px 10px 5px 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.box span{
+    display: block;
+    margin-top: 1.2rem;
+    font-weight: 600;
+}
+.box h2{
+    margin-top: 0.8rem;
+    font-weight: 800;
+}
+.box p{
+    margin-top: 1rem;
+    color: var(--Grey);
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.profile img{
+    transform: scale(.6);
+}
